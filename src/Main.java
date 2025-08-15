@@ -35,21 +35,20 @@ public class Main {
 
 //        prod4.mostrarInformacoes();
 
-        Musica descricao = new Musica();
+//        Musica descricao = new Musica();
+//
+//        descricao.titulo = "bar at the moon";
+//        descricao.artista = "ozzy osbourne";
+//        descricao.duracaoEmSegundos = 300;
+//
+//        descricao.informacao();
 
-        descricao.titulo = "bar at the moon";
-        descricao.artista = "ozzy osbourne";
-        descricao.duracaoEmSegundos = 300;
+    Musica musica1 = new Musica("bark at the moon", "ozzy",300);
 
-        descricao.informacao();
+    Musica musica2 = new Musica("departure", "galneryus", 300);
 
+    Musica musica3 = new Musica("Crazy train", "ozzy osbourne", 300);
 
-
-
-
-
-
-
-
+    musica3.informacao();
     }
 }
